@@ -148,22 +148,23 @@ NUM {
 MOUSE {
     bindings = <
         // ===== 左手 =====
-        &kp C_MUTE   &kp F7        &kp F8         &kp F9         &kp F10
-        &kp C_VOL_UP &kp F4        &kp F5         &kp F6         &kp F11
-        &kp C_VOL_DOWN &kp F1      &kp F2         &kp F3         &kp F12
+        &kp C_MUTE         &kp F7           &kp F8            &kp F9            &kp F10
+        &kp C_VOLUME_UP    &kp F4           &kp F5            &kp F6            &kp F11
+        &kp C_VOLUME_DOWN  &kp F1           &kp F2            &kp F3            &kp F12
 
         // 親指（左）
-        &trans       &kp INSERT    &trans
+        &trans             &kp INSERT       &trans
 
         // ===== 右手 =====
-        &kp RCBR     &kp BACKSLASH &trans         &trans         &trans         // Macro0, Macro1, Macro2
-        &trans       &trans        &kp UP         &kp F5         &trans          // Macro3, Macro4, Alt+PrintScreen(→後で置換)
-        &trans       &kp LC(F4)    &kp LA(LEFT)   &kp LA(RIGHT)  &trans          // "+Ctrl F4", "+Alt ←/→"
+        &kp LS(RBKT)       &kp BACKSLASH    &trans             &trans            &trans      // }  \  Macro1/2は後で差し替え
+        &trans             &trans           &kp UP             &kp F5            &trans       // Macro3/4, Alt+PrtScrnは後で
+        &trans             &kp LC(F4)       &kp LA(LEFT)       &kp LA(RIGHT)     &trans
 
         // 親指（右）
-        &kp LG(R)    &kp LG(D)     &trans         // Win/Cmd+R, Win/Cmd+D, RGB Toggle(→後で置換)
+        &kp LG(R)          &kp LG(D)        &trans             // Win/Cmd+R, Win/Cmd+D, RGB Toggle(後で差し替え)
     >;
 };
+
 
         SCROLL {
             bindings = <
