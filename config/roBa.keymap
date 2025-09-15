@@ -90,9 +90,9 @@
 
         FUNCTION {
             bindings = <
-&kp LS(N1)         &kp LS(N2)  &kp LS(N3)     &kp LS(N4)          &kp LS(N5)                                          &kp LS(W)           &kp LBKT  &kp EQUAL  &kp LS(EQUAL)  &kp BACKSLASH
-&kp LS(BACKSLASH)  &kp RBKT    &kp LC(LA(V))  &kp LC(SEMI)        &trans         &trans                 &trans        &trans              &trans    &trans     &trans         &kp LS(N6)
-&kp LS(N8)         &kp LS(N9)  &kp LS(N7)     &kp LS(APOSTROPHE)  &kp BACKSLASH  &kp LS(BACKSLASH)      &kp LS(SEMI)  &kp LS(APOSTROPHE)  &kp SEMI  &kp COMMA  &kp DOT        &kp LS(COMMA)
+&kp LS(N1)    &kp LS(N2)    &kp LS(N3)     &kp LS(N4)          &kp LS(N5)     &kp LS(N6)        &kp LS(N8)         &kp LS(N9) 　　　　 &kp LS(N7)     &kp LS(APOSTROPHE)
+&kp LS(W)           &kp LBKT  &kp EQUAL  &kp LS(EQUAL)  &kp BACKSLASH
+&kp LS(BACKSLASH)  &kp RBKT    &kp LC(LA(V))  &kp LC(SEMI)        &trans         &trans                 &trans        &trans              &trans    &trans     &trans           &kp BACKSLASH  &kp LS(BACKSLASH)      &kp LS(SEMI)  &kp LS(APOSTROPHE)  &kp SEMI  &kp COMMA  &kp DOT        &kp LS(COMMA)
 &kp LS(DOT)        &kp SLASH   &kp LS(SLASH)  &trans              &trans         &kp LC(ENTER)          &kp DEL       &trans
             >;
         };
