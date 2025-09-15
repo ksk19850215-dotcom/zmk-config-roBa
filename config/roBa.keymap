@@ -66,6 +66,8 @@
 
         macro_1985: macro_1985 {
             label = "macro_1985";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <
                 &kp N1
                 &kp N9
@@ -81,6 +83,8 @@
 
         macro_pass: macro_pass {
             label = "macro_pass";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <
                 &kp Z
                 &kp S
@@ -98,6 +102,8 @@
 
         macro_bcc11703: macro_bcc11703 {
             label = "macro_bcc11703";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <
                 &kp B
                 &kp C
@@ -113,6 +119,8 @@
 
         macro_logon: macro_logon {
             label = "macro_logon";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <
                 &kp B
                 &kp C
@@ -139,6 +147,8 @@
 
         macro_line: macro_line {
             label = "macro_line";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <
                 &kp T
                 &kp R
@@ -153,6 +163,8 @@
 
         macro_any: macro_any {
             label = "macro_any";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <
                 &kp LS(N5)
                 &kp B
