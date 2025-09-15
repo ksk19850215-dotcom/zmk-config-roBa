@@ -161,7 +161,7 @@ MOUSE {
         &trans             &kp LC(F4)       &kp LA(LEFT)       &kp LA(RIGHT)     &trans
 
         // 親指（右）
-        &kp LG(R)          &kp LG(D)        &trans             // Win/Cmd+R, Win/Cmd+D, RGB Toggle(後で差し替え)
+        &kp LG(R)          &kp LG(D)        &trans             // Win/Cmd+R, Win/Cmd+D, RGB Toggle
     >;
 };
 
