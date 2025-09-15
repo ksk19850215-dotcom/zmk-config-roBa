@@ -82,9 +82,9 @@
 default_layer {
     bindings = <
         // ===== 左手：上段 → 中段 → 下段 =====
-        &lt 6 Q      &kp W           &kp E           &kp R            &kp T                  &kp Y        &kp U           &kp I           &kp O            &kp P
-        &kp A        &kp S           &kp D           &kp F            &kp G    &trans        &kp H        &kp J           &kp K           &kp L            &mkp MB1     // Mouse Btn1
-        &mt LSHIFT Z &kp X           &kp C           &kp V            &kp B    &trans        &kp N        &kp M           &kp COMMA       &mkp MB2         &mt LSHIFT SLASH  // Mouse Btn2 / 右下は「/」をShiftモッドタップ
+        &lt 6 Q      &kp W           &kp E           &kp R            &kp T                  &kp Y        &kp U        &kp I           &kp O            &kp P
+        &kp A        &kp S           &kp D           &kp F            &kp G    &trans        &trans       &kp H        &kp J           &kp K           &kp L            &mkp MB1     // Mouse Btn1
+        &mt LSHIFT Z &kp X           &kp C           &kp V            &kp B    &trans        &trans       &kp N        &kp M           &kp COMMA       &mkp MB2         &mt LSHIFT SLASH  // Mouse Btn2 / 右下は「/」をShiftモッドタップ
         // 親指（左）：Tab(タップ) / HoldでLayer3、クォート(タップ)/HoldでLayer2、Space(タップ)/HoldでLayer1
         &kp LCTRL    &kp Lwin        &kp ALT         &lt 3 TAB     &lt 2 APOSTROPHE &lt 1 SPACE          &mt LCTRL ENTER   &lt 2 BSPC     &lt 3 (&mkp MB3)
 
