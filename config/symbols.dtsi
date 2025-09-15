@@ -1,0 +1,39 @@
+/ { aliases {
+    // 1段目のシンボル系（Shift+数字）
+    EXCL = <LS(N1)>;   // !
+    AT   = <LS(N2)>;   // @
+    HASH = <LS(N3)>;   // #
+    DOLL = <LS(N4)>;   // $
+    PERC = <LS(N5)>;   // %
+    CARET= <LS(N6)>;   // ^
+    AMPS = <LS(N7)>;   // &
+    LPAR = <LS(N9)>;   // (
+    RPAR = <LS(N0)>;   // )
+
+    // 句読点・ブラケット
+    LCB  = <LS(LBKT)>; // {
+    RCB  = <LS(RBKT)>; // }
+    LB   = <LBKT>;     // [
+    RB   = <RBKT>;     // ]
+    EQLS = <EQUAL>;    // =
+    PLUS = <LS(EQUAL)>;// +
+    BSLH = <BACKSLASH>; // \  （JISなら RO を使う場合あり → 下の RO を参照）
+
+    SEMI = <SEMI>;     // ;
+    COLN = <LS(SEMI)>; // :
+    COMM = <COMMA>;    // ,
+    DOTK = <DOT>;      // .
+    LT   = <LS(COMMA)>;// <
+    GT   = <LS(DOT)>;  // >
+    QSLS = <LS(SLASH)>;// ?
+
+    SQT  = <APOSTROPHE>;     // '
+    DQT  = <LS(APOSTROPHE)>; // "
+
+    // 日本語JIS固有（「ろ/￥」キー）
+    RO__ = <RO>;        // Ro
+    SRO_ = <LS(RO)>;    // Shift+Ro
+
+    // 修飾の合成例
+    // Ctrl+Alt+V → LC(LA(V)) のようにネストで書ける
+}; };
