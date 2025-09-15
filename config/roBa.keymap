@@ -99,10 +99,10 @@
 
         NUM {
             bindings = <
-&kp ESC      &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp MINUS                         &trans    &kp LS(N4)    &kp LS(N5)    &kp LS(MINUS)  &trans
-&kp LS(N1)   &kp LS(N2)  &kp LS(N3)  &kp LS(N0)  &kp N0     &trans        &trans   &trans    &kp LC(HOME)  &kp HOME      &kp UP         &kp END
-&kp LC(END)  &kp PGUP    &kp LEFT    &kp DOWN    &kp RIGHT  &kp PGDN      &kp TAB  &kp LGUI  &kp LC(PGUP)  &kp LC(PGDN)  &kp TAB        &mt LALT ENTER
-&kp LSHIFT   &trans
+&kp ESC      &kp Number_7  &kp Number_8  &kp Number_9  &kp MINUS                           &kp LC(HOME)  &kp HOME     &kp UP        &kp END       &kp LC(END)  
+&trans       &kp Number_4  &kp Number_5  &kp Number_5  &kp LS(MINUS)  &trans      &trans   &kp PGUP      &kp LEFT     &kp DOWN      &kp RIGHT     &kp PGDN      
+&kp LS(CAPS) &kp Number_1  &kp Number_2  &kp Number_3  &kp Number_N0  &trans      &trans   &kp TAB       &kp LEFT_WIN &kp LC(PGUP)  &kp LC(PGDN)  &kp TAB
+&trans       &kp LS(COMMA) &kp LS(DOT)   &trans        &trans         &kp LA(F7)           &kp LC(ENTER) &kp LSHIFT                               &trans
             >;
         };
 
@@ -124,7 +124,7 @@
             >;
         };
 
-        layer_6 {
+        BT {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
