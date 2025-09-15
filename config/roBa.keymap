@@ -92,25 +92,24 @@
 
 FUNCTION {
     bindings = <
-        // === 左手 ===
-        &kp EXCL     &kp AT       &kp HASH        &kp DOLL       &kp PERC
-        &kp LS(W)    &kp LBKT     &kp EQUAL       &kp PLUS       &kp BSLH
-        &kp LS(YEN)  &kp RBKT     &kp LC(LA(V))   &kp LC(SEMICOLON) &trans
-        &trans       &trans       &trans
+        /* === 左手 === */
+        &kp EXCL        &kp AT_S         &kp HASH        &kp DOLL        &kp PERC
+        &kp LS(W)       &kp LBKT         &kp EQUAL       &kp PLUS        &kp BACKSLASH  /* JISなら RO__ */
+        &kp LS(BACKSLASH) &kp RBKT       &kp LC(LA(V))   &kp LC(SEMI)    &trans
+        &trans          &trans           &trans
+        /* 親指（左） */
+        &trans          &trans           &trans
 
-        // 親指（左）
-        &trans       &trans       &trans
-
-        // === 右手 ===
-        &kp CARET    &kp ASTERISK &kp LPAR        &kp AMPS       &kp DQT
-        &kp RO       &kp LS(RO)   &kp COLON       &kp DQT        &kp SEMI
-        &kp COMMA    &kp DOT      &kp LT          &kp GT         &kp SLASH
-        &kp QMARK    &trans       &trans
-
-        // 親指（右）
-        &kp LC(ENTER)   &kp DEL    &trans
+        /* === 右手 === */
+        &kp CARET       &kp STAR         &kp LPAR        &kp AMPS        &kp DQT
+        &kp RO__        &kp SRO_         &kp COLON       &kp DQT         &kp SEMI
+        &kp COMMA       &kp DOT          &kp LT_S        &kp GT_S        &kp SLASH
+        &kp QMARK       &trans           &trans
+        /* 親指（右） */
+        &kp LC(ENTER)   &kp DEL          &trans
     >;
 };
+
 
 
         NUM {
