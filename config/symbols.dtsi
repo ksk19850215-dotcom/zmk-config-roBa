@@ -1,3 +1,5 @@
+#include <dt-bindings/zmk/keys.h>
+
 / {
   aliases {
     // Shift+数字系
@@ -39,3 +41,4 @@
     YEN  = <BACKSLASH>; // ￥（近似。必要なら RO に差し替え）
   };
 };
+
