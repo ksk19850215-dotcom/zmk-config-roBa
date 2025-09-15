@@ -99,10 +99,10 @@
 
         NUM {
             bindings = <
-&kp ESC      &kp Number_7  &kp Number_8  &kp Number_9  &kp MINUS                           &kp LC(HOME)  &kp HOME     &kp UP        &kp END       &kp LC(END)  
-&trans       &kp Number_4  &kp Number_5  &kp Number_5  &kp LS(MINUS)  &trans      &trans   &kp PGUP      &kp LEFT     &kp DOWN      &kp RIGHT     &kp PGDN      
-&kp LS(CAPS) &kp Number_1  &kp Number_2  &kp Number_3  &kp Number_N0  &trans      &trans   &kp TAB       &kp LEFT_WIN &kp LC(PGUP)  &kp LC(PGDN)  &kp TAB
-&trans       &kp LS(COMMA) &kp LS(DOT)   &trans        &trans         &kp LA(F7)           &kp LC(ENTER) &kp LSHIFT                               &trans
+&kp ESC      &kp N7  &kp N8  &kp N9  &kp MINUS                           &kp LC(HOME)  &kp HOME     &kp UP        &kp END       &kp LC(END)  
+&trans       &kp N4  &kp N5  &kp N5  &kp LS(MINUS)  &trans            &trans   &kp PGUP      &kp LEFT     &kp DOWN      &kp RIGHT     &kp PGDN      
+&kp LS(CAPS) &kp N1  &kp N2  &kp N3  &kp N0         &trans            &trans   &kp TAB       &kp LEFT_WIN &kp LC(PGUP)  &kp LC(PGDN)  &kp TAB
+&trans       &kp LS(COMMA) &kp LS(DOT)   &trans  &trans  &kp LA(F7)            &kp LC(ENTER) &kp LSHIFT                               &trans
             >;
         };
 
