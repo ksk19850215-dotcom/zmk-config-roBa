@@ -1,39 +1,41 @@
-/ { aliases {
-    // 1段目のシンボル系（Shift+数字）
-    EXCL = <LS(N1)>;   // !
-    AT   = <LS(N2)>;   // @
-    HASH = <LS(N3)>;   // #
-    DOLL = <LS(N4)>;   // $
-    PERC = <LS(N5)>;   // %
-    CARET= <LS(N6)>;   // ^
-    AMPS = <LS(N7)>;   // &
-    LPAR = <LS(N9)>;   // (
-    RPAR = <LS(N0)>;   // )
+/ {
+  aliases {
+    // Shift+数字系
+    EXCL = <LS(N1)>;    // !
+    AT   = <LS(N2)>;    // @
+    HASH = <LS(N3)>;    // #
+    DOLL = <LS(N4)>;    // $
+    PERC = <LS(N5)>;    // %
+    CARET= <LS(N6)>;    // ^
+    AMPS = <LS(N7)>;    // &
+    STAR = <LS(N8)>;    // *   ← ASTERISK の代わりにこれを使う
+    LPAR = <LS(N9)>;    // (
+    RPAR = <LS(N0)>;    // )
 
-    // 句読点・ブラケット
-    LCB  = <LS(LBKT)>; // {
-    RCB  = <LS(RBKT)>; // }
-    LB   = <LBKT>;     // [
-    RB   = <RBKT>;     // ]
-    EQLS = <EQUAL>;    // =
-    PLUS = <LS(EQUAL)>;// +
-    BSLH = <BACKSLASH>; // \  （JISなら RO を使う場合あり → 下の RO を参照）
+    // ブラケット／記号
+    LB   = <LBKT>;          // [
+    RB   = <RBKT>;          // ]
+    LCB  = <LS(LBKT)>;      // {
+    RCB  = <LS(RBKT)>;      // }
+    EQLS = <EQUAL>;         // =
+    PLUS = <LS(EQUAL)>;     // +
+    BSLH = <BACKSLASH>;     // \   （JISなら RO を使ってもOK）
 
-    SEMI = <SEMI>;     // ;
-    COLN = <LS(SEMI)>; // :
-    COMM = <COMMA>;    // ,
-    DOTK = <DOT>;      // .
-    LT   = <LS(COMMA)>;// <
-    GT   = <LS(DOT)>;  // >
-    QSLS = <LS(SLASH)>;// ?
+    SEMI = <SEMI>;          // ;
+    COLN = <LS(SEMI)>;      // :   ← COLON の代替
+    COMM = <COMMA>;         // ,
+    DOTK = <DOT>;           // .
+    LT_  = <LS(COMMA)>;     // <
+    GT_  = <LS(DOT)>;       // >
+    SLH  = <SLASH>;         // /
+    QMARK= <LS(SLASH)>;     // ?
 
-    SQT  = <APOSTROPHE>;     // '
-    DQT  = <LS(APOSTROPHE)>; // "
+    SQT  = <APOSTROPHE>;        // '
+    DQT  = <LS(APOSTROPHE)>;    // "
 
-    // 日本語JIS固有（「ろ/￥」キー）
+    // JIS系
     RO__ = <RO>;        // Ro
     SRO_ = <LS(RO)>;    // Shift+Ro
-
-    // 修飾の合成例
-    // Ctrl+Alt+V → LC(LA(V)) のようにネストで書ける
-}; };
+    YEN  = <BACKSLASH>; // ￥（近似。必要なら RO に差し替え）
+  };
+};
