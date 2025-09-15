@@ -1,41 +1,15 @@
 #pragma once
 #include <dt-bindings/zmk/keys.h>
 
-// Shift+数字
-#define EXCL     LS(N1)   // !
-#define AT_      LS(N2)   // @ 
-#define HASH_SYM LS(N3)   // #
-#define DOLL     LS(N4)   // $
-#define PERC     LS(N5)   // %
-#define CARET    LS(N6)   // ^
-#define AMPS     LS(N7)   // &
-#define STAR     LS(N8)   // *
-#define LPAR     LS(N9)   // (
-#define RPAR     LS(N0)   // )
+/* 既存に無い or 衝突しにくい補助名だけ定義する */
 
-// ブラケット／記号
-#define LB       LBKT           // [
-#define RB       RBKT           // ]
-#define LCB      LS(LBKT)       // {
-#define RCB      LS(RBKT)       // }
-#define EQLS     EQUAL          // =
-#define PLUS     LS(EQUAL)      // +
-#define BSLH     BACKSLASH      // \ （JISなら RO に差し替え可）
+#define AT_S   LS(N2)        /* @ : 衝突回避のため AT_S 名 */
+#define LCBR   LS(LBKT)      /* { */
+#define RCBR   LS(RBKT)      /* } */
+#define LT_S   LS(COMMA)     /* < */
+#define GT_S   LS(DOT)       /* > */
 
-#define SEMI     SEMI           // ;
-#define COLN     LS(SEMI)       // :
-#define COMM     COMMA          // ,
-#define DOTK     DOT            // .
-#define LT_      LS(COMMA)      // <
-#define GT_      LS(DOT)        // >
-#define SLH      SLASH          // /
-#define QMARK    LS(SLASH)      // ?
+#define RO__   RO            /* Ro */
+#define SRO_   LS(RO)        /* Shift+Ro */
 
-#define SQT      APOSTROPHE     // '
-#define DQT      LS(APOSTROPHE) // "
-
-// JIS系
-#define RO__     RO             // Ro
-#define SRO_     LS(RO)         // Shift+Ro
-#define YEN      BACKSLASH      // ￥（必要なら RO に）
-
+/* 必要なら追加してOK（ZMK既存名は使わないこと） */
