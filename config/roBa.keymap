@@ -100,7 +100,7 @@ FUNCTION {
         &trans        &trans        &trans
 
         &kp LS(N6)    &kp LS(N8)    &kp LS(N9)    &kp LS(N7)    &kp LS(APOSTROPHE)
-        &kp RO        &kp LS(RO)    &kp LS(SEMI)  &kp LS(APOSTROPHE) &kp SEMI
+        &kp BACKSLASH    &kp LS(BACKSLASH)  &kp LS(SEMI)  &kp LS(APOSTROPHE)  &kp SEMI
         &kp COMMA     &kp DOT       &kp LS(COMMA) &kp LS(DOT)   &kp SLASH
         &kp LS(SLASH) &trans        &trans
 
