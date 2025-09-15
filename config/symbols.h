@@ -3,7 +3,7 @@
 
 // Shift+数字
 #define EXCL     LS(N1)   // !
-#define AT_      LS(N2)   // @  ← ATは他と衝突しやすいので AT_ にした
+#define AT_      LS(N2)   // @ 
 #define HASH_SYM LS(N3)   // #
 #define DOLL     LS(N4)   // $
 #define PERC     LS(N5)   // %
@@ -38,3 +38,4 @@
 #define RO__     RO             // Ro
 #define SRO_     LS(RO)         // Shift+Ro
 #define YEN      BACKSLASH      // ￥（必要なら RO に）
+
