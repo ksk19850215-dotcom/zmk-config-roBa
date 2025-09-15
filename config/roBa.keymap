@@ -82,7 +82,7 @@
 default_layer {
     bindings = <
         // ===== 左手：上段 → 中段 → 下段 =====
-        &kp Q        &kp W           &kp E           &kp R            &kp T
+        &lt 6 Q        &kp W           &kp E           &kp R            &kp T
         &kp A        &kp S           &kp D           &kp F            &kp G
         &mt LSHIFT Z &kp X           &kp C           &kp V            &kp B
 
