@@ -63,6 +63,111 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        macro_1985 {
+            label = "1985";
+            bindings = <
+                &kp N1
+                &kp N9
+                &kp N8
+                &kp N5
+                &kp N0
+                &kp N2
+                &kp N1
+                &kp N5
+                &kp ENTER
+            >;
+        };
+
+        macro_pass {
+            label = "ZSE456TFCX";
+            bindings = <
+                &kp Z
+                &kp S
+                &kp E
+                &kp N4
+                &kp N5
+                &kp N6
+                &kp T
+                &kp F
+                &kp C
+                &kp X
+                &kp ENTER
+            >;
+        };
+
+        macro_bcc11703 {
+            label = "BCC11703";
+            bindings = <
+                &kp B
+                &kp C
+                &kp C
+                &kp N1
+                &kp N1
+                &kp N7
+                &kp N0
+                &kp N3
+                &kp TAB
+            >;
+        };
+
+        macro_logon {
+            label = "logon";
+            bindings = <
+                &kp B
+                &kp C
+                &kp C
+                &kp N1
+                &kp N1
+                &kp N7
+                &kp N0
+                &kp N3
+                &kp TAB
+                &kp Z
+                &kp S
+                &kp E
+                &kp N4
+                &kp N5
+                &kp N6
+                &kp T
+                &kp F
+                &kp C
+                &kp X
+                &kp ENTER
+            >;
+        };
+
+        macro_line {
+            label = "line";
+            bindings = <
+                &kp T
+                &kp R
+                &kp N3
+                &kp M
+                &kp N4
+                &kp V
+                &kp A
+                &kp ENTER
+            >;
+        };
+
+        macro_any {
+            label = "any";
+            bindings = <
+                &kp LS(N5)
+                &kp B
+                &kp C
+                &kp C
+                &kp N1
+                &kp N1
+                &kp N7
+                &kp N0
+                &kp N3
+                &kp S
+                &kp ENTER
+            >;
+        };
+
     };
 
     behaviors {
@@ -108,9 +213,9 @@
 
         MOUSE {
             bindings = <
-&kp C_MUTE         &kp F7  &kp F8  &kp F9   &kp F10                         &trans      &trans        &trans        &trans         &trans
-&kp C_VOLUME_UP    &kp F4  &kp F5  &kp F6   &kp F11  &trans      &trans     &trans      &trans        &trans        &trans         &trans
-&kp C_VOLUME_DOWN  &kp F1  &kp F2  &kp F3   &kp F12  &trans      &trans     &kp LC(F4)  &kp LA(LEFT)  &kp LA(LEFT)  &kp LA(RIGHT)  &trans
+&kp C_MUTE         &kp F7  &kp F8  &kp F9   &kp F10                         &macro_pass  &kp RS(RBKT)    &kp BACKSLASH &macro_line    &macro_any
+&kp C_VOLUME_UP    &kp F4  &kp F5  &kp F6   &kp F11  &trans      &trans     &macro_logon &macro_19850215 &trans        &kp F5         &trans
+&kp C_VOLUME_DOWN  &kp F1  &kp F2  &kp F3   &kp F12  &trans      &trans     &kp LC(F4)   &kp LA(LEFT)    &kp LA(LEFT)  &kp LA(RIGHT)  &trans
 &trans             &trans  &trans  &kp INS  &trans   &trans      &kp LG(R)  &kp LG(D)                                              &trans
             >;
         };
