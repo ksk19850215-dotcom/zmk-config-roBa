@@ -79,16 +79,31 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            bindings = <
-&kp Q             &kp W         &kp E         &kp R                 &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                 &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B        &kp COLON                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 TAB  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
-            >;
+default_layer {
+    bindings = <
+        // ===== 左手：上段 → 中段 → 下段 =====
+        &kp Q        &kp W           &kp E           &kp R            &kp T
+        &kp A        &kp S           &kp D           &kp F            &kp G
+        &mt LSHIFT Z &kp X           &kp C           &kp V            &kp B
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
-        };
+        // 親指（左）：Tab(タップ) / HoldでLayer3、クォート(タップ)/HoldでLayer2、Space(タップ)/HoldでLayer1
+        &lt 3 TAB     &lt 2 APOSTROPHE &lt 1 SPACE
+
+        // ===== 右手：上段 → 中段 → 下段 =====
+        &kp Y        &kp U           &kp I           &kp O            &kp P
+        &kp H        &kp J           &kp K           &kp L            &mkp MB1     // Mouse Btn1
+        &kp N        &kp M           &kp COMMA       &mkp MB2         &mt LSHIFT SLASH  // Mouse Btn2 / 右下は「/」をShiftモッドタップ
+
+        // 親指（右）：Ctrl+Enter(モッドタップ) / Backspace(タップ) + HoldでLayer2 / Mouse Btn3（必要ならHoldでLayer3）
+        &mt LCTRL ENTER   &lt 2 BSPC   &mkp MB3
+        // もし「Mouse Btn3 をタップ、Holdで Layer3」にしたいなら ↑を
+        //   &lt 3 (&mkp MB3)
+        // に置き換え。※環境によっては &lt の引数に &mkp を取れない場合あり。そのときは
+        //   &mkp MB3
+        // だけにして、どこか別キーで Layer3 を出すのが安定だよ。
+    >;
+};
+
 
 FUNCTION {
     bindings = <
