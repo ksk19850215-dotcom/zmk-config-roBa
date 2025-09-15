@@ -90,14 +90,28 @@
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
-        FUNCTION {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
-            >;
-        };
+FUNCTION {
+    bindings = <
+        // === 左手 ===
+        &kp EXCL     &kp AT       &kp HASH        &kp DOLL       &kp PERC
+        &kp LS(W)    &kp LBKT     &kp EQUAL       &kp PLUS       &kp BSLH
+        &kp LS(YEN)  &kp RBKT     &kp LC(LA(V))   &kp LC(SEMICOLON) &trans
+        &trans       &trans       &trans
+
+        // 親指（左）
+        &trans       &trans       &trans
+
+        // === 右手 ===
+        &kp CARET    &kp ASTERISK &kp LPAR        &kp AMPS       &kp DQT
+        &kp RO       &kp LS(RO)   &kp COLON       &kp DQT        &kp SEMI
+        &kp COMMA    &kp DOT      &kp LT          &kp GT         &kp SLASH
+        &kp QMARK    &trans       &trans
+
+        // 親指（右）
+        &kp LC(ENTER)   &kp DEL    &trans
+    >;
+};
+
 
         NUM {
             bindings = <
