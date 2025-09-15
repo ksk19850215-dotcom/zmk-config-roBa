@@ -64,7 +64,7 @@
             label = "TO_LAYER_0";
         };
 
-        macro_1985 {
+        macro_1985: macro_1985 {
             label = "macro_1985";
             bindings = <
                 &kp N1
@@ -79,7 +79,7 @@
             >;
         };
 
-        macro_pass {
+        macro_pass: macro_pass {
             label = "macro_pass";
             bindings = <
                 &kp Z
@@ -96,7 +96,7 @@
             >;
         };
 
-        macro_bcc11703 {
+        macro_bcc11703: macro_bcc11703 {
             label = "macro_bcc11703";
             bindings = <
                 &kp B
@@ -111,7 +111,7 @@
             >;
         };
 
-        macro_logon {
+        macro_logon: macro_logon {
             label = "macro_logon";
             bindings = <
                 &kp B
@@ -137,7 +137,7 @@
             >;
         };
 
-        macro_line {
+        macro_line: macro_line {
             label = "macro_line";
             bindings = <
                 &kp T
@@ -151,7 +151,7 @@
             >;
         };
 
-        macro_any {
+        macro_any: macro_any {
             label = "macro_any";
             bindings = <
                 &kp LS(N5)
