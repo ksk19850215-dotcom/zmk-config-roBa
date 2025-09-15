@@ -65,7 +65,7 @@
         };
 
         macro_1985 {
-            label = "1985";
+            label = "macro_1985";
             bindings = <
                 &kp N1
                 &kp N9
@@ -80,7 +80,7 @@
         };
 
         macro_pass {
-            label = "ZSE456TFCX";
+            label = "macro_pass";
             bindings = <
                 &kp Z
                 &kp S
@@ -97,7 +97,7 @@
         };
 
         macro_bcc11703 {
-            label = "BCC11703";
+            label = "macro_bcc11703";
             bindings = <
                 &kp B
                 &kp C
@@ -112,7 +112,7 @@
         };
 
         macro_logon {
-            label = "logon";
+            label = "macro_logon";
             bindings = <
                 &kp B
                 &kp C
@@ -138,7 +138,7 @@
         };
 
         macro_line {
-            label = "line";
+            label = "macro_line";
             bindings = <
                 &kp T
                 &kp R
@@ -152,7 +152,7 @@
         };
 
         macro_any {
-            label = "any";
+            label = "macro_any";
             bindings = <
                 &kp LS(N5)
                 &kp B
