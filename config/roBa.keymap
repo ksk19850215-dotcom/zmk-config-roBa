@@ -98,7 +98,7 @@
             label = "macro_line";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp T &kp R &kp N3 &kp M &kp N4 &kp V &kp A &kp ENTER>;
+            bindings = <&kp T &kp R &kp N3 &kp M &kp N &kp N4 &kp V &kp A &kp ENTER>;
         };
 
         macro_any: macro_any {
