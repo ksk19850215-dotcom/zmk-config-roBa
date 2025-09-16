@@ -77,7 +77,7 @@
             label = "macro_pass";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Z &kp S &kp E &kp N4 &kp N5 &kp N6 &kp T &kp F &kp C &kp X &kp ENTER>;
+            bindings = <&kp LS(Z) &kp S &kp E &kp N4 &kp N5 &kp N6 &kp T &kp F &kp C &kp X &kp ENTER>;
         };
 
         macro_bcc11703: macro_bcc11703 {
@@ -91,7 +91,7 @@
             label = "macro_logon";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp B &kp C &kp C &kp N1 &kp N1 &kp N7 &kp N0 &kp N3 &kp TAB &kp Z &kp S &kp E &kp N4 &kp N5 &kp N6 &kp T &kp F &kp C &kp X &kp ENTER>;
+            bindings = <&kp B &kp C &kp C &kp N1 &kp N1 &kp N7 &kp N0 &kp N3 &kp TAB &kp LS(Z) &kp S &kp E &kp N4 &kp N5 &kp N6 &kp T &kp F &kp C &kp X &kp ENTER>;
         };
 
         macro_line: macro_line {
@@ -156,7 +156,7 @@
         NUM {
             bindings = <
 &kp ESC        &kp N7         &kp N8       &kp N9  &kp MINUS                                     &kp LC(HOME)  &kp HOME      &kp UP        &kp END       &kp LC(END)
-&kp LS(LCTRL)  &kp N4         &kp N5       &kp N5  &kp LS(MINUS)  &trans          &trans         &kp PAGE_UP   &kp LEFT      &kp DOWN      &kp RIGHT     &kp PAGE_DOWN
+&kp LS(LCTRL)  &kp N4         &kp N5       &kp N6  &kp LS(MINUS)  &trans          &trans         &kp PAGE_UP   &kp LEFT      &kp DOWN      &kp RIGHT     &kp PAGE_DOWN
 &kp LS(CAPS)   &kp N1         &kp N2       &kp N3  &kp N0         &trans          &trans         &kp TAB       &kp LEFT_WIN  &kp LC(PGUP)  &kp LC(PGDN)  &kp TAB
 &trans         &kp LS(COMMA)  &kp LS(DOT)  &trans  &trans         &kp LA(F7)      &kp LC(ENTER)  &kp LSHIFT                                              &trans
             >;
