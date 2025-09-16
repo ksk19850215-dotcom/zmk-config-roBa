@@ -136,9 +136,9 @@
         default_layer {
             bindings = <
 &lt 5 Q       &kp W         &kp E         &kp R      &kp T                                          &kp Y       &kp U  &kp I     &kp O     &kp P
-&kp A         &kp S         &kp D         &kp F      &kp G        &trans           &trans           &kp H       &kp J  &kp K     &kp L     &lt 3 MINUS
+&kp A         &kp S         &kp D         &kp F      &kp G        &trans           &mkp MB3         &kp H       &kp J  &kp K     &kp L     &lt 3 MINUS
 &mt LSHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp LANG1        &kp LANG2        &kp N       &kp M  &mkp MB1  &mkp MB2  &mt LSHIFT SLASH
-&kp LCTRL     &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 LANG5  &lt 1 SPACE      &mt LCTRL ENTER  &lt 2 BSPC                             &mkp MB3
+&kp LCTRL     &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 LANG5  &lt 1 SPACE      &mt LCTRL ENTER  &lt 2 BSPC                             &lt 3 INT_MUHENKAN
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -155,10 +155,10 @@
 
         NUM {
             bindings = <
-&kp ESC        &kp N7         &kp N8       &kp N9  &kp MINUS                                     &kp LC(HOME)  &kp HOME      &kp UP        &kp END       &kp LC(END)
-&kp LS(LCTRL)  &kp N4         &kp N5       &kp N6  &kp LS(MINUS)  &trans          &trans         &kp PAGE_UP   &kp LEFT      &kp DOWN      &kp RIGHT     &kp PAGE_DOWN
-&kp LS(CAPS)   &kp N1         &kp N2       &kp N3  &kp N0         &trans          &trans         &kp TAB       &kp LEFT_WIN  &kp LC(PGUP)  &kp LC(PGDN)  &kp TAB
-&trans         &kp LS(COMMA)  &kp LS(DOT)  &trans  &trans         &kp LA(F7)      &kp LC(ENTER)  &kp LSHIFT                                              &trans
+&kp ESC        &kp N7     &kp N8   &kp N9  &kp MINUS                                     &kp LC(HOME)  &kp HOME      &kp UP        &kp END       &kp LC(END)
+&kp LS(LCTRL)  &kp N4     &kp N5   &kp N6  &kp LS(MINUS)  &trans          &trans         &kp PAGE_UP   &kp LEFT      &kp DOWN      &kp RIGHT     &kp PAGE_DOWN
+&kp LS(CAPS)   &kp N1     &kp N2   &kp N3  &kp N0         &trans          &trans         &kp TAB       &kp LEFT_WIN  &kp LC(PGUP)  &kp LC(PGDN)  &kp TAB
+&trans         &kp COMMA  &kp DOT  &trans  &trans         &kp LA(F7)      &kp LC(ENTER)  &kp LSHIFT                                              &trans
             >;
         };
 
