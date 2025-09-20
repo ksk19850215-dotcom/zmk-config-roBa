@@ -147,7 +147,7 @@
         FUNCTION {
             bindings = <
 &kp LS(N1)    &kp LS(N2)         &kp LS(N3)     &kp LS(N4)     &kp LS(N5)                                    &kp LS(N6)     &kp LS(N8)     &kp LS(N9)     &kp LS(N7)      &kp LS(N0)
-&kp LBKT      &kp LG(LS(S))      &trans         &kp EQUAL      &kp LS(GRAVE)      &trans      &trans         &kp BACKSLASH  &kp LS(MINUS)  &kp LC(SEMI)   &kp LS(SQT)     &kp SEMICOLON
+&kp LBKT      &kp LG(LS(S))      &trans         &kp EQUAL      &kp LS(GRAVE)      &trans      &trans         &kp BACKSLASH  &kp LS(MINUS)  &kp SEMI       &kp LS(SQT)     &kp SEMICOLON
 &kp RS(RBKT)  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LA(LC(V))  &kp LC(SEMICOLON)  &trans      &trans         &kp COMMA      &kp DOT        &kp LS(COMMA)  &kp LS(PERIOD)  &kp QUESTION
 &trans        &trans             &trans         &trans         &trans             &trans      &kp LC(ENTER)  &kp DEL                                                      &trans
             >;
@@ -166,7 +166,7 @@
             bindings = <
 &kp C_MUTE         &kp F7  &kp F8  &kp F9   &kp F10                         &macro_pass   &kp RS(RBKT)  &kp BACKSLASH  &macro_line    &macro_any
 &kp C_VOLUME_UP    &kp F4  &kp F5  &kp F6   &kp F11  &trans      &trans     &macro_logon  &macro_1985   &trans         &kp F5         &trans
-&kp C_VOLUME_DOWN  &kp F1  &kp F2  &kp F3   &kp F12  &trans      &trans     &kp LC(F4)    &kp LA(LEFT)  &kp LA(LEFT)   &kp LA(RIGHT)  &trans
+&kp C_VOLUME_DOWN  &kp F1  &kp F2  &kp F3   &kp F12  &trans      &trans     &kp LC(F4)    &kp LA(F4)    &kp LA(LEFT)   &kp LA(RIGHT)  &trans
 &trans             &trans  &trans  &kp INS  &trans   &trans      &kp LG(R)  &kp LG(D)                                                 &trans
             >;
         };
