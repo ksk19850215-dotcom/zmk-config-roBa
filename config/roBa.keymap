@@ -149,7 +149,7 @@
 &kp LS(N1)    &kp LS(N2)         &kp LS(N3)     &kp LS(N4)     &kp LS(N5)                                    &kp LS(N6)     &kp LS(N8)      &kp LS(N9)     &kp LS(N7)      &kp SQT
 &kp LBKT      &kp LG(LS(S))      &trans         &kp RS(CARET)  &kp LS(EQUAL)      &trans      &trans         &kp BACKSLASH  &kp LS(INT_RO)  &kp LS(SEMI)   &kp LS(SQT)     &kp SEMICOLON
 &kp RS(RBKT)  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LA(LC(V))  &kp LC(SEMICOLON)  &trans      &trans         &kp COMMA      &kp DOT         &kp LS(COMMA)  &kp LS(PERIOD)  &kp QUESTION
-&trans        &trans             &trans         &trans         &trans             &trans      &kp LC(ENTER)  &kp DEL                                                       &trans
+&trans        &trans             &trans         &trans         &trans             &trans      &kp LC(ENTER)  &kp DEL                                                       &mkp MB3
             >;
         };
 
