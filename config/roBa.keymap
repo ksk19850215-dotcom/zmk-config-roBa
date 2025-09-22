@@ -155,10 +155,10 @@
 
         NUM {
             bindings = <
-&kp ESC        &kp N7     &kp N8   &kp N9  &kp MINUS                                     &kp LC(HOME)  &kp HOME      &kp UP        &kp END       &kp LC(END)
-&kp LS(LCTRL)  &kp N4     &kp N5   &kp N6  &kp LS(MINUS)  &trans          &trans         &kp PAGE_UP   &kp LEFT      &kp DOWN      &kp RIGHT     &kp PAGE_DOWN
-&kp LS(CAPS)   &kp N1     &kp N2   &kp N3  &kp N0         &trans          &trans         &kp TAB       &kp LEFT_WIN  &kp LC(PGUP)  &kp LC(PGDN)  &kp TAB
-&trans         &kp COMMA  &kp DOT  &trans  &kp LA(TILDE)  &kp LA(F7)      &kp LC(ENTER)  &kp LSHIFT                                              &trans
+&kp ESC        &kp N7     &kp N8   &kp N9  &kp MINUS                                    &kp LC(HOME)  &kp HOME      &kp UP        &kp END       &kp LC(END)
+&kp LS(LCTRL)  &kp N4     &kp N5   &kp N6  &kp LS(MINUS)  &trans         &trans         &kp PAGE_UP   &kp LEFT      &kp DOWN      &kp RIGHT     &kp PAGE_DOWN
+&kp LS(CAPS)   &kp N1     &kp N2   &kp N3  &kp N0         &trans         &trans         &kp TAB       &kp LEFT_WIN  &kp LC(PGUP)  &kp LC(PGDN)  &kp TAB
+&trans         &kp COMMA  &kp DOT  &trans  &kp LANG1      &kp LANG2      &kp LC(ENTER)  &kp LSHIFT                                              &trans
             >;
         };
 
