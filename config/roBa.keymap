@@ -109,6 +109,7 @@
         };
 
         kanji_toggle: kanji_toggle{
+            label = "kanji_toggle";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp KANJI>;
