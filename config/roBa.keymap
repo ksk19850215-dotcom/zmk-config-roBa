@@ -107,13 +107,6 @@
             #binding-cells = <0>;
             bindings = <&kp LS(N5) &kp B &kp C &kp C &kp N1 &kp N1 &kp N7 &kp N0 &kp N3 &kp S &kp ENTER>;
         };
-
-        kanji_toggle: kanji_toggle{
-            label = "kanji_toggle";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp KANJI>;
-        };
     };
 
     behaviors {
