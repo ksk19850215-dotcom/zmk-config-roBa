@@ -107,6 +107,12 @@
             #binding-cells = <0>;
             bindings = <&kp LS(N5) &kp B &kp C &kp C &kp N1 &kp N1 &kp N7 &kp N0 &kp N3 &kp S &kp ENTER>;
         };
+
+        kanji_toggle: kanji_toggle{
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp KANJI>;
+        };
     };
 
     behaviors {
@@ -138,7 +144,7 @@
 &lt 5 Q       &kp W         &kp E         &kp R      &kp T                                          &kp Y       &kp U  &kp I     &kp O     &kp P
 &kp A         &kp S         &kp D         &kp F      &kp G        &trans           &mkp MB3         &kp H       &kp J  &kp K     &kp L     &lt 3 MINUS
 &mt LSHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp LANG1        &kp LANG2        &kp N       &kp M  &mkp MB1  &mkp MB2  &mt LSHIFT SLASH
-&kp LCTRL     &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 LANG5  &lt 1 SPACE      &mt LCTRL ENTER  &lt 2 BSPC                             &lt 3 INT_MUHENKAN
+&kp LCTRL     &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 &kanji_toggle  &lt 1 SPACE      &mt LCTRL ENTER  &lt 2 BSPC                             &lt 3 INT_MUHENKAN
             >;
 
             sensor-bindings = <&scroll_up_down>;
